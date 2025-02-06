@@ -1,5 +1,21 @@
 ---
 title: "L-Lowell.github.io"
+image: photoofmelance.jpg  # move imageto project's directory
+about: 
+  template: marquee
+  image-shape: rectangle
+  image-width: 10em
+  links: 
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/lance-lowell
+    - text: Email
+      href: mailto:lance.lowell@colostate.edu
+    - text: GitHub
+      href: https://www.github.com/L-Lowell
+    - text: Research Information
+      href: URL_FOR_RESEARCH_INFO
+    - text: Warner College of Natural Resources Colorado State University
+      href: URL_FOR_COLLEGE
 ---
 
 This is a Quarto website.
