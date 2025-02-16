@@ -1,10 +1,10 @@
 ---
-title: "L-Lowell.github.io"
-image: photoofmelance.jpg  # move imageto project's directory
+title: "Lance Lowell"
+image: photoofmelance.jpg 
 about: 
   template: marquee
   image-shape: rectangle
-  image-width: 10em
+  image-width: 20em
   links: 
     - text: LinkedIn
       href: https://www.linkedin.com/in/lance-lowell
@@ -17,11 +17,3 @@ about:
     - text: Warner College of Natural Resources Colorado State University
       href: URL_FOR_COLLEGE
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
