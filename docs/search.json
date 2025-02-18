@@ -54,5 +54,47 @@
     "title": "Penguins Data Analysis",
     "section": "",
     "text": "Attach the palmerspenguins package\n\nlibrary(palmerpenguins)\ndata(\"penguins\")\nsummary(penguins)\n\n      species          island    bill_length_mm  bill_depth_mm  \n Adelie   :152   Biscoe   :168   Min.   :32.10   Min.   :13.10  \n Chinstrap: 68   Dream    :124   1st Qu.:39.23   1st Qu.:15.60  \n Gentoo   :124   Torgersen: 52   Median :44.45   Median :17.30  \n                                 Mean   :43.92   Mean   :17.15  \n                                 3rd Qu.:48.50   3rd Qu.:18.70  \n                                 Max.   :59.60   Max.   :21.50  \n                                 NA's   :2       NA's   :2      \n flipper_length_mm  body_mass_g       sex           year     \n Min.   :172.0     Min.   :2700   female:165   Min.   :2007  \n 1st Qu.:190.0     1st Qu.:3550   male  :168   1st Qu.:2007  \n Median :197.0     Median :4050   NA's  : 11   Median :2008  \n Mean   :200.9     Mean   :4202                Mean   :2008  \n 3rd Qu.:213.0     3rd Qu.:4750                3rd Qu.:2009  \n Max.   :231.0     Max.   :6300                Max.   :2009  \n NA's   :2         NA's   :2                                 \n\n\n\n\n1. Examine at the dataset using the ?Help page\n\n?penguins\n\nstarting httpd help server ... done\n\n\n\n\n2. what is the class of the penguins dataset?\n\nclass(penguins)\n\n[1] \"tbl_df\"     \"tbl\"        \"data.frame\"\n\n\n\n\n3. what is the structure of the penguins dataset?\n\nstr(penguins)\n\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)\n $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...\n $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...\n $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...\n $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...\n $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...\n $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...\n $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...\n $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...\n\n\n\n\n4. what are the dimensions of the penguins dataset?\n\ndim(penguins)\n\n[1] 344   8\n\n\n\n\n5. what are the column names of the penguins dataset?\n\nnames(penguins)\n\n[1] \"species\"           \"island\"            \"bill_length_mm\"   \n[4] \"bill_depth_mm\"     \"flipper_length_mm\" \"body_mass_g\"      \n[7] \"sex\"               \"year\"             \n\n\n\n\n6. what type of data is flipper_length_mm and Island?\n\nclass(penguins$flipper_length_mm)\n\n[1] \"integer\"\n\nclass(penguins$island)\n\n[1] \"factor\"\n\n\n\n\n7. what is the mean flipper length of the penguins?\n\nmean(penguins$flipper_length_mm, na.rm = TRUE)\n\n[1] 200.9152\n\n\n\n\n8. what is the standard deviation of flipper length in the penguins?\n\nsd(penguins$flipper_length_mm, na.rm = TRUE)\n\n[1] 14.06171\n\n\n\n\n9. what is the median body mass of the penguins?\n\nmedian(penguins$body_mass_g, na.rm = TRUE)\n\n[1] 4050\n\n\n\n\n10. what is the Island of the 100th penguin?\n\npenguins$island[100]\n\n[1] Dream\nLevels: Biscoe Dream Torgersen"
+  },
+  {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Positive attitude, hard-working, motivated, and detail-oriented, I am a student at Colorado State University specializing in Ecosystem Science and Sustainability, with a dual minor in Zoology and Watershed Science. Strong, collaborative, and problem-solving skills honed through field research, youth development, and public safety. Extensive experience in safety protocols, technical documentation, and regulatory compliance."
+  },
+  {
+    "objectID": "Resume.html#profile-summary",
+    "href": "Resume.html#profile-summary",
+    "title": "Resume",
+    "section": "",
+    "text": "Positive attitude, hard-working, motivated, and detail-oriented, I am a student at Colorado State University specializing in Ecosystem Science and Sustainability, with a dual minor in Zoology and Watershed Science. Strong, collaborative, and problem-solving skills honed through field research, youth development, and public safety. Extensive experience in safety protocols, technical documentation, and regulatory compliance."
+  },
+  {
+    "objectID": "Resume.html#relevant-skills",
+    "href": "Resume.html#relevant-skills",
+    "title": "Resume",
+    "section": "Relevant Skills",
+    "text": "Relevant Skills\n\nMonitor and manage water quality by conducting precise water tests and chemical treatments to reduce contamination risks and ensure compliance with city standards.\nProficient in Microsoft Office and Google Earth Pro for organizing and preparing data for presentation.\nProgram in R to analyze and visualize datasets."
+  },
+  {
+    "objectID": "Resume.html#certifications",
+    "href": "Resume.html#certifications",
+    "title": "Resume",
+    "section": "Certifications",
+    "text": "Certifications\n\nBasics of Geographic Coordinate Systems: ESRI\nSCUBA Diver Certified: PADI - Open Water"
+  },
+  {
+    "objectID": "Resume.html#education",
+    "href": "Resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nColorado State University\nBachelor of Science in Ecosystem Science and Sustainability\nMinor in Zoology and Watershed Science\nGPA: 3.56 with Honors\nExpected Graduation: May 2026"
+  },
+  {
+    "objectID": "Resume.html#work-experience",
+    "href": "Resume.html#work-experience",
+    "title": "Resume",
+    "section": "Work Experience",
+    "text": "Work Experience\nYouth Development Specialist, Boys and Girls Club, Larimer County, Colorado\n6/2024 – 8/2024\nStream Restoration, Environmental Conservation CSU, Fort Collins, Colorado\n9/2022 – 11/2022"
   }
 ]

@@ -1,0 +1,51 @@
+---
+title: "Resume"
+author: "Lance Lowell"
+output: html_document
+urlcolor: blue
+---
+
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.profile-summary {
+    margin-bottom: 20px;
+}
+.skills, .work-experience, .education {
+    margin-bottom: 10px;
+}
+.certifications {
+    font-style: italic;
+}
+</style>
+
+## Profile Summary
+Positive attitude, hard-working, motivated, and detail-oriented, I am a student at Colorado State University specializing in Ecosystem Science and Sustainability, with a dual minor in Zoology and Watershed Science. Strong, collaborative, and problem-solving skills honed through field research, youth development, and public safety. Extensive experience in safety protocols, technical documentation, and regulatory compliance.
+
+## Relevant Skills
+- Monitor and manage water quality by conducting precise water tests and chemical treatments to reduce contamination risks and ensure compliance with city standards.
+- Proficient in Microsoft Office and Google Earth Pro for organizing and preparing data for presentation.
+- Program in R to analyze and visualize datasets.
+
+## Certifications
+- Basics of Geographic Coordinate Systems: ESRI
+- SCUBA Diver Certified: PADI - Open Water
+
+## Education
+**Colorado State University**  
+_Bachelor of Science in Ecosystem Science and Sustainability_  
+Minor in Zoology and Watershed Science  
+GPA: 3.56 with Honors  
+Expected Graduation: May 2026
+
+## Work Experience
+**Youth Development Specialist**, Boys and Girls Club, Larimer County, Colorado  
+6/2024 – 8/2024  
+**Stream Restoration**, Environmental Conservation CSU, Fort Collins, Colorado  
+9/2022 – 11/2022
+
+---
