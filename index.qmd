@@ -15,5 +15,5 @@ about:
     - text: Research Information
       href: URL_FOR_RESEARCH_INFO
     - text: Warner College of Natural Resources Colorado State University
-      href: URL_FOR_COLLEGE
+      href: https://warnercnr.colostate.edu/
 ---
